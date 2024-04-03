@@ -9,22 +9,27 @@ const NavBar = () => {
     {
       id: 1,
       link: "home",
+      title: "Home",
     },
     {
       id: 2,
       link: "about",
+      title: "Home",
     },
     {
       id: 3,
       link: "portfolio",
+      title: "Home",
     },
     {
       id: 4,
       link: "experience",
+      title: "Home",
     },
     {
       id: 5,
       link: "contact",
+      title: "Home",
     },
   ];
 
@@ -34,14 +39,14 @@ const NavBar = () => {
         <h1 className="text-5xl font-signature md:ml-8 my-2 text-green-600">Calm Craft</h1>
       </div>
 
-      <ul className="hidden md:flex md:border-2 md:justify-end">
-        {links.map(({ id, link }) => (
+      <ul className="hidden md:flex md:border-2">
+        {links.map(({ id, link, title }) => (
           <li
             key={id}
             className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
           >
             <Link to={link} smooth duration={500}>
-              {link}
+              {title}
             </Link>
           </li>
         ))}
@@ -49,7 +54,7 @@ const NavBar = () => {
 
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-10 text-black/80 md:hidden"
+        className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
       >
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
