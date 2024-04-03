@@ -36,11 +36,11 @@ const Home = () => {
           <div></div>
           <div className="mt-54">
             <div className="z-0">
-              <img src={Dfd} alt="fda" className="w-full h-[730px]" />
+              <img src={HeroImage} alt="fda" className="w-full h-[730px]" />
             </div>
             <div className="-inset-10 lg:-inset-40 z-40 relative">
               <div className="absolute -top-[540px] md:-top-96 right-58">
-                <img src={HeroImage} alt="fda" className="w-48 h-[230px]" />
+                <img src={Dfd} alt="fda" className="w-60 h-[280px]" />
               </div>
             </div>
           </div>
