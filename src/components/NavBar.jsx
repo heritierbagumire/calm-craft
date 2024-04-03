@@ -40,12 +40,12 @@ const NavBar = () => {
           Calm Craft
         </h1>
       </div>
-      <div className="-mr-[60%]">
+      <div className="-mr-[60%] md:flex gap-x-6 pr-6">
         <ul className="hidden md:flex  md:border-2">
           {links.map(({ id, link, title }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
+              className="px-4 cursor-pointer capitalize font-medium text-green-600 text-[12px] hover:scale-105 duration-200"
             >
               <Link to={link} smooth duration={500}>
                 {title}
@@ -53,6 +53,7 @@ const NavBar = () => {
             </li>
           ))}
         </ul>
+        <button className="rounded-sm border-green-500 border  text-green-600 px-3 py-3">Contact Us</button>
       </div>
 
       <div
