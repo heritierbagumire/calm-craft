@@ -21,22 +21,13 @@ const NavBar = () => {
       link: "portfolio",
       title: "Services",
     },
-    {
-      id: 4,
-      link: "experience",
-      title: "experience",
-    },
-    {
-      id: 5,
-      link: "contact",
-      title: "contact",
-    },
+
   ];
 
   return (
     <div className="flex flex-col py-2 justify-between items-center w-full h-auto px-10 text-black bg-white fixed">
-      <div className="border-b border-green-600 w-[110%]">
-        <h1 className="text-5xl font-signature md:ml-8 my-2 text-green-600">
+      <div className="border-b border-green-600 w-full">
+        <h1 className="text-5xl font-signature md:ml-8 my-2 font-medium text-green-600">
           Calm Craft
         </h1>
       </div>
@@ -45,7 +36,7 @@ const NavBar = () => {
           {links.map(({ id, link, title }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer capitalize font-medium text-green-600 text-[12px] hover:scale-105 duration-200"
+              className="md:px-6 md:-ml-[34px]  lg:px-4 cursor-pointer capitalize font-medium text-green-600 text-[12px] hover:scale-105 duration-200 lg:ml-10 "
             >
               <Link to={link} smooth duration={500}>
                 {title}
@@ -53,14 +44,20 @@ const NavBar = () => {
             </li>
           ))}
         </ul>
-        <button className="rounded-sm border-green-500 border  text-green-600 px-3 py-3">Contact Us</button>
+        <button className="hidden md:block rounded-sm border-green-500 border text-[12px] text-green-600 px-8 py-2">
+          Contact Us
+        </button>
       </div>
 
       <div
         onClick={() => setNav(!nav)}
         className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
       >
-        {nav ? <FaTimes size={30} /> : <FaBars size={30} className="-mt-10 ml-80" />}
+        {nav ? (
+          <FaTimes size={30} />
+        ) : (
+          <FaBars size={30} className="-mt-10 ml-80" />
+        )}
       </div>
 
       {nav && (
