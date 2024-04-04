@@ -7,12 +7,12 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="md:max-w-screen-2xl md:px-2 lg:px-0 h-auto w-full bg-white text-green-700 mt-6 md:overflow-hidden"
+      className="md:max-w-screen-2xl md:px-2 p-10 lg:px-0 h-auto w-full bg-white text-green-700 mt-6 md:overflow-hidden "
     >
       <div className=" mx-2 md:-mx-2 flex flex-col items-center justify-between h-auto md:flex-row">
         <div className="flex flex-col justify-center h-full md:w-[45%]">
-          <div className="px-0 md:px-7">
-            <h2 className=" text-3xl md:text-6xl lg:text-7xl font-medium  text-green-800">
+          <div className="px-0 md:px-7 relative">
+            <h2 className=" text-3xl md:text-6xl absolute top-12 lg:text-7xl font-medium pt-0  text-green-800">
               Calm <br /> Craft
             </h2>
             <p className="font-medium text-sm mt-4 md:text-auto">

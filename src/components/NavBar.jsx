@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import logo from "../assets/calm-logo.webp"
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -18,7 +19,7 @@ const NavBar = () => {
     },
     {
       id: 3,
-      link: "portfolio",
+      link: "services",
       title: "Services",
     },
 
@@ -26,10 +27,13 @@ const NavBar = () => {
 
   return (
     <div className="flex flex-col py-2 justify-between items-center w-full h-auto px-10 bg-white text-green-800 sticky">
-      <div className="border-b border-green-800 w-full">
-        <h1 className="text-5xl font-signature md:ml-8 my-2 font-medium text-green-700">
+      <div className="border-b flex space-x-3 border-green-800 w-full relative">
+        <h1 className="text-5xl font-signature md:ml-8 my-0 font-medium text-green-700">
           Calm Craft
         </h1>
+        <div className="-mt-5">
+        <img alt="logo" src={logo} width={100} height={100} className="" />
+        </div>
       </div>
       <div className="-mr-[75%] md:flex md:gap-x-0 md:pr-18 lg:gap-x-1 lg:pr-2">
         <ul className="hidden md:flex ">
@@ -44,7 +48,7 @@ const NavBar = () => {
             </li>
           ))}
         </ul>
-        <button className="hidden md:block rounded-0 border-t-0 border-green-800 border text-[12px] text-green-800 px-10 md:px-2 lg:px-8 py-2">
+        <button className="hidden md:block rounded-0 border-t-0 border-green-800 border text-[12px] text-green-800 px-10 md:px-2 lg:px-10 lg:-mr-12 py-2 hover:bg-green-800 hover:text-white hover:scale-105 hover:ease-in-out ">
           Contact Us
         </button>
       </div>
