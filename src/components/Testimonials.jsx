@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 
 import TestimonialImage01 from "@/public/images/testimonial-01.jpg";
 import TestimonialImage02 from "@/public/images/testimonial-02.jpg";
@@ -28,7 +28,7 @@ export default function Testimonials() {
             >
               <div>
                 <div className="relative inline-flex flex-col mb-4">
-                  <Image
+                  <img
                     className="rounded-full"
                     src={TestimonialImage01}
                     width={48}
@@ -70,7 +70,7 @@ export default function Testimonials() {
             >
               <div>
                 <div className="relative inline-flex flex-col mb-4">
-                  <Image
+                  <img
                     className="rounded-full"
                     src={TestimonialImage02}
                     width={48}
@@ -112,7 +112,7 @@ export default function Testimonials() {
             >
               <div>
                 <div className="relative inline-flex flex-col mb-4">
-                  <Image
+                  <img
                     className="rounded-full"
                     src={TestimonialImage03}
                     width={48}
