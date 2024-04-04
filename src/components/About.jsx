@@ -6,21 +6,28 @@ const About = () => {
   return (
     <div name="about" className="w-full h-auto bg-white text-green-800">
       <section>
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <div className="py-12 md:py-20 border-t mt-10 border-gray-800">
+        <div className="max-w-8xl mx-auto px-4 sm:px-6">
+          <div className="py-12 md:py-0  mt-6">
             {/* Section header */}
-            <div className="max-w-7xl mx-auto text-start pb-8 md:pb-16">
-              <div className="inline-flex  text-sm font-semibold py-1 px-3 m-2 text-green-800 rounded-full mb-4">
-                <p className="text-start text-4xl">
-                About Us
-                </p>
+            <div className="w-full mx-0 text-start pb-8 md:pb-16">
+              <div className="flex justify-between gap-x-80 text-sm font-semibold py-1 px-3 m-2 text-green-800 rounded-full mb-4">
+                <div className="w-full md:w-1/2 ">
+                  <p className="text-start text-4xl">About Us</p>
+                  <div className="w-full md:w-1/2">
+                    <h1 className="h2 mb-4 ml-0 pt-2 text-[14px] text-green-800 font-medium">
+                      Who we are
+                    </h1>
+                  </div>
                 </div>
-              
-              <h1 className="h2 mb-4 ml-6 text-green-800 font-medium">Who we are</h1>
-              <p className="text-xl text-gray-400">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit laborum — semper quis lectus nulla.
-              </p>
+                <p className="text-[12px] text-green-800 max-w-60 mr-0 md:mr-96">
+                  Calm Craft is an accepting Support Group. Everything we do is
+                  founded in our core belief that no one should ever feel they
+                  are alone. We all have our own life’s journey, but the path
+                  shouldn’t be a lonely one. Our commitment is to provide a safe
+                  space for sharing, listening, learning, and supporting each
+                  other.
+                </p>
+              </div>
             </div>
 
             {/* Items */}
