@@ -26,7 +26,7 @@ const Home = () => {
               where people of all backgrounds can share with and listen to
               others, can make a huge difference. Get in touch today.
             </p>
-            <button className="bg-green-800 text-white text-[12px] px-4 my-10 py-2 rounded-2xl">
+            <button className="bg-green-800 text-white text-[12px] px-4 my-10  rounded-2xl hidden md:block rounded-0 mt-6 hover:border hover:border-green-700  hover:bg-white border  transition duration-150 ease-in-out hover:text-green-800  md:px-2 lg:px-10 lg:-mr-12 py-2 hover:scale-105 hover:ease-in-out ">
               Learn More
             </button>
           </div>

@@ -32,7 +32,7 @@ const NavBar = () => {
           Calm Craft
         </h1>
         <div className="-mt-5">
-        <img alt="logo" src={logo} width={100} height={100} className="" />
+          <img alt="logo" src={logo} width={100} height={100} className="" />
         </div>
       </div>
       <div className="-mr-[75%] md:flex md:gap-x-0 md:pr-18 lg:gap-x-1 lg:pr-2">
@@ -58,9 +58,9 @@ const NavBar = () => {
         className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
       >
         {nav ? (
-          <FaTimes size={30} className="-mt-10 ml-80" />
+          <FaTimes size={30} className="-mt-14 ml-72 md:ml-96" />
         ) : (
-          <FaBars size={30} className="-mt-10 ml-80" />
+          <FaBars size={30} className="-mt-14 ml-72 md:ml-96" />
         )}
       </div>
 
@@ -69,7 +69,7 @@ const NavBar = () => {
           {links.map(({ id, link, title }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer capitalize py-6 text-4xl"
+              className="px-4 cursor-pointer capitalize py-4 text-2xl"
             >
               <Link
                 onClick={() => setNav(!nav)}
