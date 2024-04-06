@@ -32,7 +32,7 @@ const About = () => {
                     a safe space for sharing, listening, learning, and
                     supporting each other.
                   </p>
-                  <button className="hidden md:block rounded-0 mt-6 rounded-3xl border-t-0 hover:bg-white border text-[12px] hover:text-green-800 px-10 md:px-2 lg:px-10 lg:-mr-12 py-2 bg-green-800 text-white hover:scale-105 hover:ease-in-out ">
+                  <button className="hidden md:block rounded-0 mt-6 rounded-3xl hover:border hover:border-green-700  hover:bg-white border text-[12px] transition duration-150 ease-in-out hover:text-green-800 px-10 md:px-2 lg:px-10 lg:-mr-12 py-2 bg-green-800 text-white hover:scale-105 hover:ease-in-out ">
                     View more
                   </button>
                 </div>
