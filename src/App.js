@@ -4,13 +4,15 @@ import About from './components/About';
 import Services from './components/services';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Testimonials from './components/Testimonials';
 function App() {
   return (
     <div>
     <Navbar />
     <Home />
     <About />
-    <Services /> 
+      <Services /> 
+      <Testimonials /> 
     <Footer />
     </div>
   );
