@@ -26,16 +26,22 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex flex-col py-2 justify-between items-center w-full h-auto px-10 bg-white text-green-800 sticky">
-      <div className="border-b flex space-x-3 border-green-800 w-full relative">
+    <div className="flex flex-col py-2 justify-between items-center w-full h-auto px-20 pt-6 bg-white text-green-800 sticky">
+      <div className="border-b flex space-x-3 border-green-800 w-[106%] relative">
         <h1 className="text-5xl font-signature md:ml-8 my-0 font-medium text-green-700">
           Calm Craft
         </h1>
-        <div className="-mt-5">
-          <img alt="logo" src={logo} width={100} height={100} className="" />
+        <div className="mt-4 ml-3 md:-mt-5">
+          <img
+            alt="logo"
+            src={logo}
+            width={100}
+            height={100}
+            className="mr-4"
+          />
         </div>
       </div>
-      <div className="-mr-[75%] md:flex md:gap-x-0 md:pr-18 lg:gap-x-1 lg:pr-2">
+      <div className="-mr-[75%] md:flex md:gap-x-0 md:pr-18 lg:gap-x-1 lg:pr-4">
         <ul className="hidden md:flex ">
           {links.map(({ id, link, title }) => (
             <li
@@ -48,7 +54,7 @@ const NavBar = () => {
             </li>
           ))}
         </ul>
-        <button className="hidden md:block rounded-0 border-t-0 border-green-800 border text-[12px] text-green-800 px-10 md:px-2 lg:px-10 lg:-mr-12 py-2 hover:bg-green-800 hover:text-white hover:scale-105 hover:ease-in-out ">
+        <button className="hidden md:block rounded-0 border-t-0 border-green-800 border text-[12px] transition duration-150 ease-in-out text-green-800 px-10 md:px-2 lg:px-10 lg:-mr-12 py-2 hover:bg-green-800 hover:text-white hover:scale-105 hover:ease-in-out ">
           Contact Us
         </button>
       </div>
