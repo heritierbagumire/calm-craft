@@ -7,11 +7,11 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="md:max-w-screen-2xl md:px-2 p-10 lg:px-0 h-auto w-full bg-white text-green-700 mt-6 md:overflow-hidden "
+      className="md:max-w-screen-2xl md:px-10 m-4 lg:p-20 lg:px-0 h-auto w-full bg-white text-green-700 mt-6 md:overflow-hidden "
     >
-      <div className=" mx-2 md:-mx-2 flex flex-col items-center justify-between h-auto md:flex-row">
+      <div className=" mx-2 md:-mx-2 pl-0 lg:pl-5 flex flex-col items-center justify-between h-auto md:flex-row">
         <div className="flex flex-col justify-center h-full md:w-[45%]">
-          <div className="px-0 md:px-7 relative">
+          <div className="px-0 lg:px-7 relative">
             <h2 className=" text-3xl md:text-6xl absolute top-12 lg:text-7xl font-medium pt-0  text-green-800">
               Calm <br /> Craft
             </h2>
@@ -19,7 +19,7 @@ const Home = () => {
               Make a Connection
             </p>
           </div>
-          <div className="mt-[60%] pl-0 md:pl-10">
+          <div className="mt-[60%] pl-0 lg:pl-10">
             <p className="text-green-800 text-[12px] max-w-64 py-4 pb-2 text-start font-medium">
               Our Support Group was created as a community for individuals going
               through similar difficulties. We believe that this safe space,
@@ -35,11 +35,11 @@ const Home = () => {
           <div></div>
           <div className="mt-54">
             <div className="z-0">
-              <img src={HeroImage} alt="fda" className="w-full h-[730px]" />
+              <img src={HeroImage} alt="fda" className="w-full h-[530px] md:h-[730px]" />
             </div>
-            <div className="-inset-10 lg:-inset-40 z-40 relative">
-              <div className="absolute -top-[540px] md:-top-96 right-16 md:right-56 lg:left-20">
-                <img src={Dfd} alt="fda" className="w-60 h-[300px]" />
+            <div className="inset-20 md:-inset-10 lg:-inset-40 z-40 relative">
+              <div className="absolute -top-[540px] md:-top-[500px] -left-20 md:right-58 lg:left-20">
+                <img src={Dfd} alt="fda" className="w-full md:w-60 h-[200px] md:h-[300px]" />
               </div>
             </div>
           </div>
