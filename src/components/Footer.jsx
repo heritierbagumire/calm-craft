@@ -55,7 +55,7 @@ const Footer = () => {
       <div className="py-12 md:pb-24 md:py-14 bg-gray-800 ">
         <div className="max-w-6xl mx-auto px-0 md:px-4  sm:px-6">
           {/* Top area: Blocks */}
-          <div className="grid md:grid-cols-12 px-4 gap-8 lg:gap-20 mb-8 md:mb-12 justify-center">
+          <div className="grid md:grid-cols-12 px-4 gap-8 lg:gap-20 mb-8 md:mb-12">
             {/* 1st block */}
             <div className="md:col-span-4 lg:col-span-5 ">
               <div className="mb-2 relative flex">
@@ -74,10 +74,12 @@ const Footer = () => {
                 </p>
               </div>
               <div className="text-gray-300 inline-flex text-start md:text-center">
-                <p className=" w-52 md:w-96 text-sm">
+                <div className="w-full md:max-w-[60%] text-start text-sm">
+                  <p className="text-center md:text-start ">
                   Unlock Peace of Mind With CalmCraft. Your Path to Inner
                   Serenity.
-                </p>
+                  </p>
+                </div>
               </div>
             </div>
 
