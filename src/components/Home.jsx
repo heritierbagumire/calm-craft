@@ -14,9 +14,7 @@ const Home = () => {
           <div className="px-0 lg:px-7 relative">
             <div className="block text-3xl md:text-6xl ml-2 absolute top-12 lg:text-7xl font-medium pt-0  text-green-800">
               Calm <br /> Craft
-              <p className="text-[12px] md:text-sm ml-2">
-              Make a Connection
-              </p>
+              <p className="text-[12px] md:text-sm ml-2">Make a Connection</p>
             </div>
           </div>
           <div className="mt-[60%] pl-10 lg:pl-10">
@@ -36,15 +34,15 @@ const Home = () => {
           <div className="mt-54">
             <div className="z-0">
               <img
-                src={HeroImage}
+                src="https://static.wixstatic.com/media/11062b_d296a592b03444e3b3bb1147d04fffd3~mv2.jpeg/v1/fill/w_597,h_1228,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_d296a592b03444e3b3bb1147d04fffd3~mv2.jpeg"
                 alt="fda"
-                className="w-full h-[530px] md:h-[730px]"
+                className="w-[520px] md:w-full  h-[560px] md:h-[930px]"
               />
             </div>
             <div className="inset-20 md:-inset-10 lg:-inset-40 z-40 relative">
               <div className="absolute -top-[540px] md:-top-[400px] lg:-top-[400px] -left-20 md:right-58 lg:left-20">
                 <img
-                  src={Dfd}
+                  src="https://static.wixstatic.com/media/11062b_b49ef0667e3c465c84214a06324c7ee8~mv2.jpeg/v1/fill/w_438,h_618,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_b49ef0667e3c465c84214a06324c7ee8~mv2.jpeg"
                   alt="fda"
                   className="w-full md:w-0 lg:w-60 h-[200px] md:h-[200px] lg:h-[300px]"
                 />

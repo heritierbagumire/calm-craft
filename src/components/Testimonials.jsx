@@ -1,6 +1,6 @@
 
 
-import TestimonialImage01 from "../assets/davido.jpg";
+import TestimonialImage01 from "../assets/pexels-semih-palaz-18422741.jpg";
 import TestimonialImage02 from "../assets/features-03-image-03.png";
 
 
@@ -11,7 +11,7 @@ export default function Testimonials() {
         <div>
           <div className="w-auto h-auto pb-0 overflow-auto z-0 inset-0">
             <div className="container mx-auto px-2 md:px-20 lg:px-36 flex flex-col items-center justify-center">
-              <h2 className="text-xl md:text-3xl font-medium">Testimonials</h2>
+              <h2 className="text-xl md:text-3xl font-medium text-green-800 py-7">Testimonials</h2>
               <p className="text-[12px] md:text-sm text-center">
                 Here are the testimonials are being shown below and here are
                 some of the testomonies from some people who have enjoyed the
@@ -28,7 +28,7 @@ export default function Testimonials() {
                   />
                 </div>
                 <div className="w-full h-full md:w-3/5 lg:w-4/5 md:h-48 text-xs md:text-default-800 px-4 pt-10 flex flex-col justify-center items-center ">
-                  <p className="text-center text-lg font-semibold"> Hofa Doe</p>
+                  <p className="text-center text-lg font-semibold text-green-800"> Hofa Doe</p>
                   <p className="text-center text-pretty font-normal">
                     Today, we gather to honour the continued sacrifice of
                     survivors and remember all those we lost during the Genocide
@@ -46,7 +46,7 @@ export default function Testimonials() {
                   />
                 </div>
                 <div className="w-full h-full md:w-3/5 lg:w-4/5 md:h-48 text-xs md:text-default-800 px-4 pt-10 block ">
-                  <p className="text-center text-lg font-semibold"> Hofa Doe</p>
+                  <p className="text-center text-lg font-semibold text-green-800"> Hofa Doe</p>
                   <p className="text-center text-pretty font-normal">
                     Today, we gather to honour the continued sacrifice of
                     survivors and remember all those we lost during the Genocide
@@ -64,7 +64,7 @@ export default function Testimonials() {
                   />
                 </div>
                 <div className="w-full h-full md:w-3/5 lg:w-4/5 md:h-48 text-xs md:text-default-800 px-4 pt-10 block ">
-                  <p className="text-center text-lg font-semibold"> Hofa Doe</p>
+                  <p className="text-center text-lg font-semibold text-green-800"> Hofa Doe</p>
                   <p className="text-center text-pretty font-normal">
                     Today, we gather to honour the continued sacrifice of
                     survivors and remember all those we lost during the Genocide

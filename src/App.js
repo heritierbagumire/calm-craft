@@ -3,6 +3,8 @@ import Home from './components/Home'
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import SocialLinks from './components/SocialLinks';
+import services from './components/services';
 import Testimonials from './components/Testimonials';
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
     <Navbar />
     <Home />
     <About />
+    <SocialLinks />
     <Testimonials /> 
     <Footer />
     </div>

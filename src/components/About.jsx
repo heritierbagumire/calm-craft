@@ -13,14 +13,14 @@ const About = () => {
         <div className="max-w-8xl mx-auto px-4 sm:px-6" data-aos="fade-up">
           <div className="py-12 md:py-0  mt-6">
             {/* Section header */}
-            <div className="w-full mx-0 text-start pb-8 md:pb-16">
-              <div className="flex flex-col md:flex md:flex-row justify-around text-sm gap-x-4  overflow-hidden font-semibold px-2 m-2 text-green-800  my-4 py-4 ">
+            <div className="w-full mx-0 text-start pb-8 md:pb-8">
+              <div className="flex flex-col md:flex md:flex-row justify-around text-sm gap-x-4  overflow-hidden font-semibold px-2 m-2 text-green-800  my-2 py-2">
                 <div className="w-full h-fill md:w-8/10">
                   <p className="text-center md:text-start text-5xl ">
                     About Us
                   </p>
-                  <div className="w-full  ">
-                    <h1 className="h2 mb-4 ml-0 pt-2 text-[18px] text-center md:text-start text-green-800 font-semibold">
+                  <div className="w-full">
+                    <h1 className="h2  ml-0 pt-2 text-[18px] text-center md:text-start text-green-800 font-semibold">
                       Who we are
                     </h1>
                   </div>
@@ -44,56 +44,65 @@ const About = () => {
             {/* Items */}
 
             <div className="block overflow-hidden container mx-auto px-5">
-              <div className="flex justify-end border-2 my-4 md:my-5 md:pr-48 md:p-20">
+              <div className="flex justify-start  my-4 md:my-5 md:pl-48 md:pt-20">
                 <div className="flex flex-col justify-center md:justify-center items-center">
                   <div className="max-w-md text-start">
-                    <h3 className="text-xl md:text-3xl font-medium">
-                      1. First catergory
-                    </h3>
-                    <p className="text-[12px] md:max-w-sm font-medium mt-2">
-                      Calm Craft is an accepting Support Group. Everything we do
-                      is founded in our core belief that no one should ever feel
-                      they are alone. We all have our own life’s journey, but
-                      the path shouldn’t be a lonely one. Our commitment is to
-                      provide a safe space for sharing, listening, learning, and
-                      supporting each other.
-                    </p>
+                    <h1 className="text-8xl">01</h1>
+                    <div className="ml-16">
+                      <h5 className="text-md md:text-xl my-4 font-light">
+                        AI-Powered Chatbot Support
+                      </h5>
+                      <p className="text-[12px] md:max-w-md md:text-lg font-medium mt-2 first-letter:capitalize">
+                        Users can benefit from immediate guidance and support
+                        through our AI-powered chatbot, which offers
+                        personalized tips, coping strategies, and encouragement
+                        based on individual needs and preferences. This virtual
+                        support system is available 24/7 to provide assistance
+                        in managing stress effectively.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
 
-              <div className="flex justify-start border-2 my-12 md:my-5 md:pl-0 lg:pl-48 md:py-10">
+              <div className="flex justify-end  my-4 md:my-5 md:pr-48 md:p-10">
                 <div className="flex flex-col justify-center md:justify-center items-center">
                   <div className="max-w-md text-start">
-                    <h3 className="text-xl md:text-3xl font-medium">
-                      2. First catergory
-                    </h3>
-                    <p className="text-[12px] md:max-w-sm font-medium mt-2">
-                      Calm Craft is an accepting Support Group. Everything we do
-                      is founded in our core belief that no one should ever feel
-                      they are alone. We all have our own life’s journey, but
-                      the path shouldn’t be a lonely one. Our commitment is to
-                      provide a safe space for sharing, listening, learning, and
-                      supporting each other.
-                    </p>
+                    <h1 className="text-8xl">02</h1>
+                    <div className="ml-16">
+                      <h5 className="text-md md:text-xl my-4 font-light">
+                        Personalized Stress Assessment
+                      </h5>
+                      <p className="text-[12px] md:max-w-md md:text-lg font-medium mt-2 first-letter:capitalize">
+                        Our platform utilizes advanced AI algorithms to conduct
+                        personalized stress assessments, taking into account
+                        various inputs such as behavior, mood, and physiological
+                        data. This assessment helps users gain insights into
+                        their stress levels and triggers, paving the way for
+                        personalized stress management plans.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
 
-              <div className="flex justify-end border-2 my-4 md:my-5 lg:mb-20 md:pr-48 md:p-20">
+              <div className="flex justify-start  my-4 md:mb-5 md:pl-56 md:p-8">
                 <div className="flex flex-col justify-center md:justify-center items-center">
                   <div className="max-w-md text-start">
-                    <h3 className="text-xl md:text-3xl font-medium">
-                      3. First catergory
-                    </h3>
-                    <p className="text-[12px] md:max-w-sm font-medium mt-2">
-                      Calm Craft is an accepting Support Group. Everything we do
-                      is founded in our core belief that no one should ever feel
-                      they are alone. We all have our own life’s journey, but
-                      the path shouldn’t be a lonely one. Our commitment is to
-                      provide a safe space for sharing, listening, learning, and
-                      supporting each other.
-                    </p>
+                    <h1 className="text-8xl">03</h1>
+                    <div className="ml-16">
+                      <h5 className="text-md md:text-xl my-4 font-light">
+                        Community for Shared Experiences
+                      </h5>
+                      <p className="text-[12px] md:max-w-md md:text-lg font-medium mt-2 first-letter:capitalize">
+                        Our platform includes a community feature where users
+                        can connect, share experiences, and support each other
+                        in managing stress. This fosters a sense of belonging
+                        and provides a supportive environment for individuals
+                        seeking to engage with others who understand their
+                        journey. ​
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
