@@ -14,17 +14,17 @@ const About = () => {
           <div className="py-12 md:py-0  mt-6">
             {/* Section header */}
             <div className="w-full mx-0 text-start pb-8 md:pb-16">
-              <div className="flex justify-between gap-x-96 text-sm font-semibold py-1 px-3 m-2 text-green-800 rounded-full mb-4">
-                <div className="w-full md:w-1/2 ">
+              <div className="flex flex-col md:flex md:flex-row justify-around text-sm gap-x-4  overflow-hidden font-semibold px-2 m-2 text-green-800  my-4 py-4 ">
+                <div className="w-full h-fill md:w-8/10">
                   <p className="text-start text-5xl">About Us</p>
-                  <div className="w-full md:w-1/2">
+                  <div className="w-full  ">
                     <h1 className="h2 mb-4 ml-0 pt-2 text-[18px] text-green-800 font-semibold">
                       Who we are
                     </h1>
                   </div>
                 </div>
-                <div>
-                  <p className="text-[12px] text-green-800 mr-0  md:mr-96">
+                <div className="md:w-full pb-4 ml-2">
+                  <p className="text-[12px] text-green-800 mr-0 text-center md:text-start max-w-full  md:max-w-sm ">
                     Calm Craft is an accepting Support Group. Everything we do
                     is founded in our core belief that no one should ever feel
                     they are alone. We all have our own life’s journey, but the
@@ -32,7 +32,7 @@ const About = () => {
                     a safe space for sharing, listening, learning, and
                     supporting each other.
                   </p>
-                  <button className="hidden md:block rounded-0 mt-6 rounded-3xl hover:border hover:border-green-700  hover:bg-white border text-[12px] transition duration-150 ease-in-out hover:text-green-800 px-10 md:px-2 lg:px-10 lg:-mr-12 py-2 bg-green-800 text-white hover:scale-105 hover:ease-in-out ">
+                  <button className="hidden md:block rounded-0 mt-6 rounded-3xl hover:border hover:border-green-700  hover:bg-white border text-[12px] transition duration-300 ease-in-out hover:text-green-800 px-10 md:px-2 lg:px-10 lg:-mr-12 py-2 bg-green-800 text-white hover:scale-105 hover:ease-in-out ">
                     View more
                   </button>
                 </div>
