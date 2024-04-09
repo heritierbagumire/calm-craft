@@ -8,21 +8,21 @@ const SocialLinks = () => {
       className="w-full h-auto bg-white text-green-800"
       data-aos="fade-up-left"
     >
-      <div className="container max-w-screen-8xl mx-auto px-0 sm:px-0">
-      <h3 className="text-5xl font-semibold ml-2 md:ml-6">Our Services</h3>
-              <div className="max-w-screen-8xl flex flex-col md:flex-row  items-center justify-center  overflow-hidden">
-              <div className="flex flex-col">
-            <div className="flex flex-col md:flex-row justify-between md:space-x-44 pl-28 my-4 md:my-5 md:py-20">
+      <div className="container max-w-screen-8xl mx-auto  ml-4 px-0 sm:px-0">
+        <h3 className="text-xl md:text-5xl font-semibold md:ml-6 ">Our Services</h3>
+        <div className="max-w-screen-8xl flex flex-col md:flex-row  items-center justify-center  overflow-hidden ">
+          <div className="flex flex-col ">
+            <div className="flex flex-col md:flex-row justify-between md:space-x-44 p-5 lg:pl-28 my-4 md:my-5 md:py-20">
               <div className="flex flex-col border-t border-green-800  justify-center md:justify-center items-center">
                 <div className="max-w-sm text-start -pt-12">
-                  <h1 className="text-5xl font-medium text-start pb-20">
+                  <h1 className="text-2xl md:text-5xl font-medium text-start pb-20">
                     Personalized approach
                   </h1>
                   <div className="">
                     <h5 className="text-md font-medium md:text-xl py-5">
                       A Great Option
                     </h5>
-                    <p className="text-[12px] md:max-w-md md:text-lg font-medium mt-2 first-letter:capitalize">
+                    <p className="text-[12px] maxw-sm md:max-w-md md:text-lg font-medium mt-2 first-letter:capitalize">
                       The platform can use AI algorithms to assess an
                       individual's stress levels based on various inputs such as
                       behavior, mood, and physiological data.
@@ -32,7 +32,7 @@ const SocialLinks = () => {
               </div>
               <div className="flex flex-col border-t border-green-800  justify-center md:justify-center items-center">
                 <div className="max-w-md text-start">
-                  <h1 className="text-6xl font-medium text-start pt-2 pb-24">
+                  <h1 className="text-2xl md:text-6xl font-medium text-start pt-2 pb-12 md:pb-24">
                     Community Forums
                   </h1>
                   <div className="">
@@ -51,10 +51,10 @@ const SocialLinks = () => {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col md:flex-row justify-between md:space-x-44 pl-28 my-4 md:my-5 md:py-20">
+            <div className="flex flex-col md:flex-row justify-between md:space-x-44 p-5 md:pl-28 my-4 md:my-5 md:py-20">
               <div className="flex flex-col border-t border-green-800  justify-center md:justify-center items-center">
                 <div className="max-w-sm text-start">
-                  <h1 className="text-5xl font-medium text-start pb-10">
+                  <h1 className="text-2xl md:text-5xl font-medium text-start pb-10">
                     Customized stress management
                   </h1>
                   <div className="">
@@ -71,7 +71,7 @@ const SocialLinks = () => {
               </div>
               <div className="flex flex-col border-t border-green-800  justify-center md:justify-center items-center">
                 <div className="max-w-md text-start">
-                  <h1 className="text-6xl font-medium text-start pb-24">
+                  <h1 className="text-2xl md:text-6xl font-medium text-start pb-24">
                     Journaling
                   </h1>
                   <div className="">
