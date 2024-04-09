@@ -38,7 +38,6 @@ const Home = () => {
         <div className="flex flex-col justify-center h-full md:w-[55%] border-2 bg-background">
           <div className="mt-54">
             <div className="z-0">
-              // comenting here to show zoom out as I scroll down the page
               <img
                 src="https://static.wixstatic.com/media/11062b_d296a592b03444e3b3bb1147d04fffd3~mv2.jpeg/v1/fill/w_597,h_1228,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_d296a592b03444e3b3bb1147d04fffd3~mv2.jpeg"
                 alt="fda"
