@@ -1,14 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import FeatImage01 from "../assets/features-03-image-01.png";
 import FeatImage02 from "../assets/features-03-image-03.png";
 import FeatImage03 from "../assets/hero-image-01.jpg";
+import Aos from "aos";
 const About = () => {
+   useEffect(() => {
+     Aos.init(); // Initialize AOS
+   }, []);
   return (
-    <div
-      name="about"
-      className="w-full h-auto bg-white text-green-800"
-      data-aos="fade-up-left"
-    >
+    <div name="about" className="w-full h-auto bg-white text-green-800">
       <section>
         <div className="max-w-8xl mx-auto px-4 sm:px-6" data-aos="fade-up">
           <div className="py-12 md:py-0  mt-6">
@@ -43,7 +43,10 @@ const About = () => {
 
             {/* Items */}
 
-            <div className="block overflow-hidden container mx-auto px-5">
+            <div
+              className="block overflow-hidden container mx-auto px-5"
+              data-aos="fade-up-left"
+            >
               <div className="flex justify-start  my-4 md:my-5 md:pl-48 md:pt-20">
                 <div className="flex flex-col justify-center md:justify-center items-center">
                   <div className="max-w-md text-start">
@@ -65,7 +68,10 @@ const About = () => {
                 </div>
               </div>
 
-              <div className="flex justify-end  my-4 md:my-5 md:pr-48 md:p-10">
+              <div
+                className="flex justify-end  my-4 md:my-5 md:pr-48 md:p-10"
+                data-aos="fade-up-right"
+              >
                 <div className="flex flex-col justify-center md:justify-center items-center">
                   <div className="max-w-md text-start">
                     <h1 className="text-8xl">02</h1>
@@ -86,7 +92,10 @@ const About = () => {
                 </div>
               </div>
 
-              <div className="flex justify-start  my-4 md:mb-5 md:pl-56 md:p-8">
+              <div
+                className="flex justify-start  my-4 md:mb-5 md:pl-56 md:p-8"
+                data-aos="fade-up-right"
+              >
                 <div className="flex flex-col justify-center md:justify-center items-center">
                   <div className="max-w-md text-start">
                     <h1 className="text-8xl">03</h1>
