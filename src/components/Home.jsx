@@ -1,13 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import HeroImage from "../assets/calm.jpg";
 import Dfd from "../assets/davido.jpg";
 import { Link } from "react-scroll";
-
+import Aos from "aos";
 const Home = () => {
+  useEffect(() => {
+    Aos.init(); 
+    // Initialize AOS
+  }, []);
+  
   return (
     <div
       name="home"
-      className=" md:max-w-screen-lg lg:max-w-screen-xl m-4 lg:m-1 lg:p-20 lg:px-0 h-auto w-full bg-white text-green-700 mt-6 overflow-hidden "
+      className=" md:max-w-screen-lg lg:max-w-screen-xl m-4 lg:m-1 lg:p-20 lg:px-0 h-auto w-full bg-white text-green-700 mt-6 overflow-hidden"
+      data-aos="zoom-out-up"
     >
       <div className=" mx-2 md:-mx-2 pl-0 lg:pl-5 flex flex-col items-center justify-between h-auto md:flex-row">
         <div className="flex flex-col justify-center h-full md:w-[45%]">
@@ -30,9 +36,9 @@ const Home = () => {
           </div>
         </div>
         <div className="flex flex-col justify-center h-full md:w-[55%] border-2 bg-background">
-          <div></div>
           <div className="mt-54">
             <div className="z-0">
+              // comenting here to show zoom out as I scroll down the page
               <img
                 src="https://static.wixstatic.com/media/11062b_d296a592b03444e3b3bb1147d04fffd3~mv2.jpeg/v1/fill/w_597,h_1228,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_d296a592b03444e3b3bb1147d04fffd3~mv2.jpeg"
                 alt="fda"
